@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	name, age := "May Thazin Htun", 30
-	fmt.Println(name, age, "years old.")
+	str1, age, str2, name := "Happy", 29, "th Birthday,", "May Thazin Htun"
+	fmt.Printf("%s %d%s %s", str1, age, str2, name)
 }
